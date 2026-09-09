@@ -1,0 +1,12 @@
+node_modules/
+.venv/
+.expo/
+dist/
+*.log
+.env
+.env.local
+backend/.venv/
+backend/data/
+backend/generated_audio/
+__pycache__/
+*.py[cod]

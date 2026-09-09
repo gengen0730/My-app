@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "MC Battle Local",
+    "slug": "mc-battle-local",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "MC BATTLE がラップを録音するためにマイクを使用します。"
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": ["android.permission.RECORD_AUDIO"]
+    }
+  }
+}
